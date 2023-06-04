@@ -1,0 +1,91 @@
+img{
+    max-width: 100%;
+}
+
+
+.text1{
+    height: 300px;
+}
+
+.click1{
+    height: 250px;
+    text-align: left;
+}
+
+.hover-effect1 {
+    opacity: 1;
+    transition: opacity 0.2s ease-in;
+}
+    
+.hover-effect1:hover {
+    opacity: 0.3;
+    transform: scale(1.1);
+}
+
+.hover-effect2 {
+    padding-top: 50px;
+    opacity: 1;
+    transition: opacity 0.2s ease-in;
+}
+    
+.hover-effect2:hover {
+    opacity: 0.3;
+    transform: scale(1.1);
+}
+
+.text2{
+    text-align: center;
+    padding-top: 600px;
+}
+
+
+.parent {
+    padding-top: 400px;
+    text-align: center;
+    position: relative;
+}
+.img1 {
+}
+.img2 {
+  position: absolute;
+  top: -300px;
+  left: 0;
+  animation: blink 1s infinite;
+}  
+    @keyframes blink {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+
+.img3{
+    position: absolute;
+    top: 1450px;
+    transform: translateY(-30%);
+  animation: slide 3s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100px;
+  }
+}
+
+.img4{
+    text-align: center;
+    padding-top: 400px;
+}
+
+.footer{
+    padding-top: 200px;
+}
